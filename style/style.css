@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+}
+
+.header {
+    background-image: url(../assets/images/angel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    font-size: 170px;
+    font-weight: bold;
+
+}
+
+.letra {
+    background: linear-gradient(90deg, #FA4A54, #DA0170);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.fun {
+    
+}
+
+.music p {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.music button {
+    background-color: #ff4b5c;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+}
