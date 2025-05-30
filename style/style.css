@@ -1,55 +1,265 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 
 }
 
 .header {
-    background-image: url(../assets/images/angel.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    position: relative;
-    text-align: center;
+  background-image: url(../assets/images/angel.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
 }
 
 .header h1 {
-    color: white;
-    font-size: 170px;
-    font-weight: bold;
+  color: white;
+  font-size: 170px;
+  font-weight: bold;
 
 }
 
 .letra {
-    background: linear-gradient(90deg, #FA4A54, #DA0170);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-.fun {
-    
+  background: linear-gradient(90deg, #FA4A54, #DA0170);
+  font-size: 60px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 }
 
-.music p {
-    font-size: 18px;
-    color: #444;
-    margin-bottom: 30px;
+.letra {
+  color: #3C3C3C;
+  
+}
+
+.fun {
+  color: #3C3C3C;
+}
+
+.enter {
+  color: #3C3C3C;
 }
 
 .music button {
-    background-color: #ff4b5c;
-    color: white;
-    padding: 15px 30px;
-    border: none;
+  background-color: #ff4b5c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.caja {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+.img img
+.img1 img {
+  width: 500px;
+  height: auto;
+}
+
+.music {
+  text-align: left;
+  padding: 20px;
+  width: 50%;
+
+}
+
+.music h2 {
+  font-size: 65px;
+  margin: 10px 0;
+  display: block;
+  color: #3C3C3C;
+}
+
+.music p {
+  font-size: 18px;
+  margin: 10px 0;
+  display: block;
+  color: #3C3C3C;
+  line-height: 2.0;
+}
+
+.music button {
+  font-size: 16px;
+  margin: 10px 0;
+  display: block;
+  cursor: pointer;
+}
+
+.caja1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+.louder {
+  padding: 20px;
+  width: 50%;
+  margin-left: auto;
+}
+
+.louder h2 {
+  text-align: left;
+  font-size: 65px;
+  margin: 10px 0;
+  color: #3C3C3C;
+}
+
+.louder p {
+  font-size: 18px;
+  padding-right: 20px;
+  margin: 10px;
+  color: #3C3C3C;
+  line-height: 2.0;
+}
+
+
+.louder button {
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.louder button {
+  background-color: #ff4b5c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+
+.letra2 {
+  background: linear-gradient(90deg, #FA4A54, #DA0170);
+  font-size: 40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.like {
+  color: #3C3C3C;
+}
+
+.been {
+  color: #3C3C3C;
+}
+
+.img1 .img1 {
+  width: 500px;
+  height: none;
+}
+
+.caja2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: black;
+
+}
+
+.img2 img {
+  max-width: 500px;
+  height: auto;
+}
+
+.guitarra {
+  background-image: url(../assets/images/raptis.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+
+
+}
+
+.conte {
+  color: white;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 90px;
+
+}
+
+.conte h2 {
+  font-size: 64px;
+  margin: 10px;
+}
+
+
+.guitarra button {
+  background-color: #ff4b5c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+footer {
+  background: linear-gradient(to right, #fd4c55, #cf2f52);
+
+}
+
+.listas {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
+  justify-content: center;
+  color: white;
+}
+
+.listas>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listas h4 {
+  font-size: 18px;
+  color: white;
+  justify-content: center;
+}
+
+.footer {
+  color: white;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-top: 0.5px solid #FE8792;
+  padding: 40px 0;
 }
